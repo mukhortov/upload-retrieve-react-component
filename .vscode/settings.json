@@ -1,8 +1,5 @@
 {
 	"eslint.enable": true,
-	"cSpell.words": [
-		"typeof"
-	],
 	"files.associations": {
 		"*.js": "javascriptreact"
 	},
