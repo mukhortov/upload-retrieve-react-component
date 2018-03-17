@@ -1,0 +1,39 @@
+.FileUpload {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.FileUpload-form {
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.FileUpload-input {
+	display: none;
+}
+
+.FileUpload-button {
+	border: 2px solid #990ae3;
+	border-radius: 15px;
+	padding: 5px 12px;
+	background: transparent;
+	text-transform: uppercase;
+	color: #990ae3;
+	font-size: 15px;
+	margin: 12px 0;
+	width: auto;
+}
+
+.FileUpload-button:hover,
+.FileUpload-button:active {
+	background-color: #990ae3;
+	color: #fff;
+}
+
+.FileUpload-status {
+	color: #777;
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 10px;
+}

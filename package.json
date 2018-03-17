@@ -1,0 +1,24 @@
+{
+  "name": "upload-retrieve-react-component",
+  "version": "0.1.0",
+  "private": true,
+  "description": "File upload and retrieve React component with Express back-end",
+  "author": "Peter Mukhortov",
+  "homepage": "http://www.mukhortov.com",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "postinstall": "cd client && yarn install"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.2"
+  }
+}

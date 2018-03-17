@@ -1,0 +1,13 @@
+.Files {
+	background: #eee;
+	border: 1px solid #ddd;
+	width: 80%;
+	max-width: 600px;
+	margin: 22px auto;
+	padding: 16px;
+	text-align: left;
+}
+
+.Files-title {
+	margin: 0 0 12px;
+}

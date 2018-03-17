@@ -1,0 +1,11 @@
+{
+	"eslint.enable": true,
+	"cSpell.words": [
+		"typeof"
+	],
+	"files.associations": {
+		"*.js": "javascriptreact"
+	},
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false
+}

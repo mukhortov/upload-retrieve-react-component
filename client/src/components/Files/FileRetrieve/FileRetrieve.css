@@ -1,0 +1,35 @@
+.FileRetrieve {
+	text-align: left;
+}
+
+.FileRetrieve-list {
+	list-style: none;
+	padding: 0;
+}
+
+.FileRetrieve-list-item a {
+	text-decoration: none;
+	color: #990ae3;
+	display: block;
+	padding: 3px 12px;
+	border-radius: 20px;
+}
+
+.FileRetrieve-list-item a:hover,
+.FileRetrieve-list-item a:active {
+	text-decoration: none;
+	background-color: #990ae3;
+	color: #fff;
+}
+
+.FileRetrieve-list-item a:before {
+	content: '\2B07';
+	margin-right: 5px;
+	vertical-align: middle;
+	color: #aaa;
+	font-size: 90%;
+}
+
+.FileRetrieve-list-item a:hover:before {
+	color: inherit;
+}
